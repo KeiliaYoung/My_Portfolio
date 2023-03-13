@@ -757,10 +757,22 @@ input[type="radio"] + label:before {
   position: relative;
 }
 
+.image-bwsmile img, 
+.image-flag img,
+.image-dragonfly img,
+.image-river img  {
+  width: 100%;
+}
+
+.image-disney img {
+  width: 300px;
+}
+
+
 .image:before {
   pointer-events: none;
   background-image: url("../../images/overlay.png");
-  background-color: rgba(19, 21, 25, 0.5);
+  /* background-color: rgba(19, 21, 25, 0.5); */
   border-radius: 4px;
   content: "";
   display: block;
@@ -816,7 +828,7 @@ input[type="radio"] + label:before {
 }
 
 .image.main img {
-  width: 100%;
+  width: 50%;
 }
 
 @media screen and (max-width: 736px) {
