@@ -748,6 +748,12 @@ input[type="radio"] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
+.fa-key img {
+  position: absolute;
+  right: 2px;
+  bottom: 4px;
+  width: 35px;
+}
 /* Image */
 
 .image {
@@ -757,17 +763,16 @@ input[type="radio"] + label:before {
   position: relative;
 }
 
-.image-bwsmile img, 
+.image-bwsmile img,
 .image-flag img,
 .image-dragonfly img,
-.image-river img  {
+.image-river img {
   width: 100%;
 }
 
 .image-disney img {
   width: 300px;
 }
-
 
 .image:before {
   pointer-events: none;
